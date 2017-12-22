@@ -7,9 +7,9 @@ function isEmpty( variable ){
     function testLength( variable ){
         return variable.length === 0 ? true : false;
     }
-    switch( typeof variable) {
+    switch( typeof variable ) {
     case 'string':
-        return testLength( variable )
+        return testLength( variable );
         break;
     case 'object':
         if ( Array.isArray( variable ) ) {
